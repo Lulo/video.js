@@ -11,7 +11,7 @@ vjs.PosterImage = vjs.Button.extend({
   init: function(player, options){
     vjs.Button.call(this, player, options);
 
-    if (!player.poster() || !player.controls()) {
+    if (!player.poster()) {
       this.hide();
     }
 
